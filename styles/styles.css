@@ -1,0 +1,348 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+	padding: 0;
+	color: #FFFFFF;
+}
+
+h2 {
+	text-align: center;
+}
+
+.homediv {
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+#formContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+#encours {
+	width: 80%;
+	margin-top: 2em;
+	display: block;
+	margin-left: 10%;
+	background-color: #FFFFFF;
+	padding: 0.5em;
+}
+
+#encours span {
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+}
+
+#encours span:not(.fa-stack) i:not(.fa) {
+	font-style: normal;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+div span {
+	margin: 0 auto;
+	display: block;
+}
+
+.fa-stack i:not(:first-child) {
+	margin-top: -0.15em;
+}
+
+body {
+	background: url('../images/potager.jpg');
+	background-size: cover;
+}
+
+form {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	width: 80%;
+	margin-left: 10%;
+	padding: 2em;
+}
+
+#data {
+	width: 20%;
+	display: inline-block;
+	margin-left: 10%;
+	vertical-align: top;
+}
+
+#data div {
+	background-color: #FFFFFF;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+#data div .fa {
+	font-size: 2em;
+}
+
+#histoContainer, #courant {
+	margin: 0 auto;
+}
+
+#histo {
+	width: 50%;
+	margin-left: 10%;
+	display: inline-block;
+}
+
+#formadd {
+	width: 80%;
+	margin-left: 10%;
+	display: block;
+}
+
+#cours {
+	width: 50%;
+	margin-left: 10%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+#eclairage {
+	width: 20%;
+	margin-left: 10%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#histo span , #cours span, #cours #prog, #eclairage span {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+#histo .md-form {
+	text-align: left;
+}
+
+#cours .span1em {
+	width: 1em;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+#logout {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 2px;
+	padding: 0.2em;
+}
+
+#linkH {
+	margin: 1em;
+}
+
+#linkH i{
+	margin-top: 1em;
+}
+
+/*
+.styleDiv {
+	background-color: #FFFFFF;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .01);
+}*/
+
+.img1em {
+	height: 1em !important;
+	display: inline-block !important;
+}
+
+.img2em {
+	height: 2em !important;
+	display: inline-block !important;
+}
+
+.card {
+	margin-top: 2em;
+	padding: 0.5em;
+}
+
+input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), 
+input[type=email]:focus:not([readonly]), input[type=number]:focus:not([readonly]), 
+input[type=password]:focus:not([readonly]), input[type=search-md]:focus:not([readonly]), 
+input[type=search]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), 
+input[type=text]:focus:not([readonly]), input[type=time]:focus:not([readonly]), 
+input[type=url]:focus:not([readonly]), textarea.md-textarea:focus:not([readonly]), input:focus, input:active {
+	border-bottom: 1px solid #4DA762 !important;
+    box-shadow: 0 1px 0 0 #4DA762 !important;
+}
+
+#zone, #zone:active, #zone:hover {
+	outline-color: #4DA762;
+}
+
+a:focus, a, a:hover, .active, .md-form .prefix.active,
+input[type=date]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, 
+input[type=email]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, 
+input[type=password]:focus:not([readonly])+label, input[type=search-md]:focus:not([readonly])+label, 
+input[type=search]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, 
+input[type=text]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, 
+input[type=url]:focus:not([readonly])+label, textarea.md-textarea:focus:not([readonly])+label {
+	color: #4DA762;
+}
+
+.btn-outline-primary:active, .btn-outline-primary:active:focus, .btn-outline-primary:focus, .btn-outline-primary:hover, .btn-outline-primary {
+	color: #4DA762;
+    border-color: #4DA762;
+	color: #4DA762 !important;
+	border: 2px solid #4DA762 !important;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+	#eclairage, #cours, #histo, #data {
+		width: 80%;
+	}
+	#data div {
+		width: 30%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	#data div:not(:first-child){
+		margin-left: 5%;
+	}
+	html{
+		font-size: 2em;
+	}
+	.homediv {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
+
+/* FUNKY */
+/* http://bootsnipp.com/snippets/featured/funky-radio-buttons */
+
+.funkyradio div {
+  clear: both;
+  overflow: hidden;
+}
+
+.funkyradio label {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #D1D3D4;
+  font-weight: normal;
+}
+
+.funkyradio input[type="radio"]:empty,
+.funkyradio input[type="checkbox"]:empty {
+  display: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label,
+.funkyradio input[type="checkbox"]:empty ~ label {
+  position: relative;
+  line-height: 2.5em;
+  text-indent: 3.25em;
+  margin-top: 2em;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label:before,
+.funkyradio input[type="checkbox"]:empty ~ label:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 2.5em;
+  background: #D1D3D4;
+  border-radius: 3px 0 0 3px;
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+  color: #888;
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #C2C2C2;
+}
+
+.funkyradio input[type="radio"]:checked ~ label,
+.funkyradio input[type="checkbox"]:checked ~ label {
+  color: #777;
+}
+
+.funkyradio input[type="radio"]:checked ~ label:before,
+.funkyradio input[type="checkbox"]:checked ~ label:before {
+  content: '\2714';
+  text-indent: .9em;
+  color: #333;
+  background-color: #ccc;
+}
+
+.funkyradio input[type="radio"]:focus ~ label:before,
+.funkyradio input[type="checkbox"]:focus ~ label:before {
+  box-shadow: 0 0 0 3px #999;
+}
+
+.funkyradio-default input[type="radio"]:checked ~ label:before,
+.funkyradio-default input[type="checkbox"]:checked ~ label:before {
+  color: #333;
+  background-color: #ccc;
+}
+
+.funkyradio-primary input[type="radio"]:checked ~ label:before,
+.funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.funkyradio-success input[type="radio"]:checked ~ label:before,
+.funkyradio-success input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #5cb85c;
+}
+
+.funkyradio-danger input[type="radio"]:checked ~ label:before,
+.funkyradio-danger input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #d9534f;
+}
+
+.funkyradio-warning input[type="radio"]:checked ~ label:before,
+.funkyradio-warning input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #f0ad4e;
+}
+
+.funkyradio-info input[type="radio"]:checked ~ label:before,
+.funkyradio-info input[type="checkbox"]:checked ~ label:before {
+  color: #fff;
+  background-color: #5bc0de;
+}
