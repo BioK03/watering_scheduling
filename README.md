@@ -6,7 +6,8 @@ Project developed by two students from Polytech Lyon.
 Goal : Create a water scheduling software to pilot a 3-way valve and 3 lights.
 
 ## Production platforms
-![Raspberry Pi Picture](http://www.boulineau.com/wp-content/uploads/2013/01/raspberry-pi-model-b-512mb.jpg =100x20)  The software is running on a Raspberry Pi B and interacts with its environment via the GPIO.
+<img src="http://www.boulineau.com/wp-content/uploads/2013/01/raspberry-pi-model-b-512mb.jpg" alt="Raspberry Pi Picture" style="width: 200px;"/>
+The software is running on a Raspberry Pi B and interacts with its environment via the GPIO.
 
 It is composed of two parts, that have to be installed in /var/www/html (assuming you have a web server like lttpd or apache).
 
